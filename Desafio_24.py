@@ -1,0 +1,5 @@
+frase = str(input('Digite seu nome! '))
+frase = frase.upper()
+frase = frase.split()
+frase = ''.join(frase)
+print('Ola {} seu nome {} silva !'.format(frase.title(), 'SILVA' in frase))
